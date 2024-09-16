@@ -1,0 +1,46 @@
+.input-field {
+    display: flex;
+    align-items: center;
+    border: 2px solid #161616;
+    height: 3.5rem;
+    border-radius: 3rem;
+
+    // Mudar a cor da borda quando um dos elementos internos estiver em foco
+    &:focus-within,
+    &.filled:focus-within {
+        border-color: white;
+    }
+
+    &.filled {
+        background-color: #4a5568;
+        border-color: #000;
+    }
+
+    .icon,
+    .icon-eye {
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    .icon-eye {
+        margin-right: 1rem;
+        color: gray;
+    }
+
+    input {
+        flex: 1;
+        outline: none;
+        background: transparent;
+        border: none;
+        height: 100%;
+        padding: 0 1rem;
+        color: #fff;
+        font-size: 1rem;
+        border-radius: 1.5rem;
+
+        &::placeholder {
+            color: #bebfc0;
+        }
+    }
+}

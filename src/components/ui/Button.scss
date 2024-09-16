@@ -1,0 +1,25 @@
+.btn-default {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    border-radius: 3rem;
+
+    &.lg {
+        height: 3.5rem;
+        font-size: 1.125rem;
+    }
+
+    &.md {
+        height: 2.5rem;
+        font-size: 1rem;
+    }
+
+    &.sm {
+        height: 1.75rem;
+        font-size: 0.75rem;
+    }
+}

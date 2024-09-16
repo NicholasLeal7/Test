@@ -1,0 +1,145 @@
+.slug-page {
+
+    .username {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .postcount {
+        font-size: 0.75rem;
+        color: #6b7280;
+    }
+
+    .section-profile {
+        border-bottom: 2px solid #111827;
+
+        .cover {
+            height: 7rem;
+            background-color: gray;
+            background-image: none;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+
+            .edit-cover {
+                cursor: pointer;
+                background-color: rgba(0, 0, 0, 0.8);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 3rem;
+                height: 3rem;
+                border-radius: 50%;
+
+                .icon {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                }
+            }
+        }
+
+        .profile {
+            padding: 0 1.5rem;
+            margin-top: -3rem;
+
+            img {
+                width: 6rem;
+                height: 6rem;
+                border-radius: 50%;
+            }
+
+            .edit-pfp {
+                width: 6rem;
+                height: 6rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: -6rem;
+
+                .edit-settings {
+                    cursor: pointer;
+                    background-color: rgba(0, 0, 0, 0.8);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 3rem;
+                    height: 3rem;
+                    border-radius: 50%;
+
+                    .icon {
+                        width: 1.5rem;
+                        height: 1.5rem;
+                    }
+                }
+            }
+
+        }
+
+        .user-info {
+            padding: 0 1.5rem;
+            margin-top: 1rem;
+
+            .name {
+                font-size: 1.25rem;
+                font-weight: bold;
+            }
+
+            .slug {
+                color: #6b7280;
+            }
+
+            .bio {
+                padding: 1.25rem 0;
+                font-size: 1.125rem;
+                color: #6b7280
+            }
+
+            .link {
+                display: flex;
+                gap: 0.5rem;
+                align-items: center;
+
+                .icon {
+                    width: 1.25rem;
+                    height: 1.25rem;
+                }
+
+                a {
+                    color: #93c5fd;
+                }
+            }
+
+            .follows {
+                margin: 1.25rem 0;
+                display: flex;
+                gap: 1.5rem;
+
+                div {
+                    font-size: 1.25rem;
+                    color: #6b7280;
+                }
+
+                span {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .section-form {
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        p {
+            font-size: 1.25rem;
+            color: #6b7280;
+            margin-bottom: 0.5rem;
+        }
+    }
+}

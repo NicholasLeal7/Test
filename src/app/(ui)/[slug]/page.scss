@@ -1,0 +1,93 @@
+.slug-page {
+
+    .username {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .postcount {
+        font-size: 0.75rem;
+        color: #6b7280;
+    }
+
+    section {
+        border-bottom: 2px solid #111827;
+
+        .cover {
+            height: 7rem;
+            background-color: gray;
+            background-image: none;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .profile {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            padding: 0 1.5rem;
+            margin-top: -3rem;
+
+            img {
+                width: 6rem;
+                height: 6rem;
+                border-radius: 50%;
+            }
+
+            .btn {
+                width: 8rem;
+            }
+        }
+
+        .user-info {
+            padding: 0 1.5rem;
+            margin-top: 1rem;
+
+            .name {
+                font-size: 1.25rem;
+                font-weight: bold;
+            }
+
+            .slug {
+                color: #6b7280;
+            }
+
+            .bio {
+                padding: 1.25rem 0;
+                font-size: 1.125rem;
+                color: #6b7280
+            }
+
+            .link {
+                display: flex;
+                gap: 0.5rem;
+                align-items: center;
+
+                .icon {
+                    width: 1.25rem;
+                    height: 1.25rem;
+                }
+
+                a {
+                    color: #93c5fd;
+                }
+            }
+
+            .follows {
+                margin: 1.25rem 0;
+                display: flex;
+                gap: 1.5rem;
+
+                div {
+                    font-size: 1.25rem;
+                    color: #6b7280;
+                }
+
+                span {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

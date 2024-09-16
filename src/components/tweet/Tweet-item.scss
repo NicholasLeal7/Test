@@ -1,0 +1,85 @@
+.tweetItem {
+    display: flex;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    border-bottom: 2px solid #111827;
+
+    .pfp {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+    }
+
+    .content {
+        flex: 1;
+
+        .user-info {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            column-gap: 0.75rem;
+
+            .name {
+                font-weight: bold;
+                font-size: 1.125rem;
+                line-height: 1.75rem;
+            }
+
+            .slug {
+                font-size: 0.75rem;
+                line-height: 1rem;
+                color: #6b7280;
+            }
+        }
+
+        .tweet-body {
+            padding: 1rem 0;
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+        }
+
+        .tweet-image {
+            width: 100%;
+
+            img {
+                width: 100%;
+                border-radius: 1rem;
+            }
+        }
+
+        .tweet-btn {
+            display: flex;
+            margin-top: 1.5rem;
+            color: #6b7280;
+
+            .comment,
+            .redirect,
+            .like {
+                flex: 1;
+
+                .content {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 0.5rem;
+                    cursor: pointer;
+                    user-select: none;
+                    transition: all .3s ease;
+
+                    .icon {
+                        width: 1.5rem;
+                        height: 1.5rem;
+                    }
+
+                    .txt {
+                        font-size: 1.125rem;
+                        line-height: 1.75rem;
+                    }
+
+                    &.liked {
+                        color: #f87171;
+                    }
+                }
+            }
+        }
+    }
+}
